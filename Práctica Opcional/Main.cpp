@@ -29,6 +29,7 @@ int main() {
 	cout << "Diferencia de a y b: ";
 	mostrar(c);
 	a << b ? cout << "a esta contenido en b" : cout << "a no esta contenido en b";
+	delete[] a.p; delete[] b.p; delete[] c.p;
 	return 0;
 }
 
